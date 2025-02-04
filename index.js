@@ -1,30 +1,17 @@
-const PHRASES = [
-    "Ara",
-    "Darwmunebuli Xar?",
-    "Dapikrdiii? 😥",
-    "Sulelobas Nu Aketeb",
-    "Boteee! 😆",
-    "Nuuu Mabrazeeebb 🤡",
-    "Dzalitt Mawvalebb 🥺",
-    "Gavgijdebiii ... 😢",
-    "Bubu Guli Metineba",
-    "Dampaloooo",
-    "Ughhhhhhhh 😠",
-    "Kiss Daachirrre'",
-    "Gceeeeemmmmmm",
-    "Tuntulaaaaav",
-    "Jiutooooo",
-    "Viroooo",
-    "Chemii gogo xarr!!!",
-    "Midi Axlaa Ki s Daachire",
-    "Gtxoovv😔",
-    "Nu Gamatkvlecieb Tavss",
-    "Dzalittt Miketebbbb",
-    "Kamerashii Giyurebbb👀",
-    "Damciniii 😂",
-    "Ki s Tuar Daacher Trakucebs Dagichkmitav",
-    "Dzalian Miyvarxar😍",
-    "Ooooxxxx"
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-export default PHRASES;
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
