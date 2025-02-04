@@ -1,0 +1,60 @@
+html, body, #root, .valentine-container {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  background-image: url("./resources/images/background-pink-hearts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-height: 50%;
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.valentine-container, .valentine-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.3vw;
+  font-family: 'Great Vibes';
+}
+
+.valentine-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: .7rem;
+  color: white;
+  margin: 0% .3rem;
+  padding: .5rem;
+  font-size: 15px;
+}
+
+#yesButton {
+  background-color: green;
+}
+
+#noButton {
+  background-color: red;
+}
+
+#yay {
+  font-size: 8vw;
+  font-weight: bold;
+  margin: 8vh;
+}

@@ -1,0 +1,30 @@
+const PHRASES = [
+    "Ara",
+    "Darwmunebuli Xar?",
+    "Dapikrdiii? 😥",
+    "Sulelobas Nu Aketeb",
+    "Boteee! 😆",
+    "Nuuu Mabrazeeebb 🤡",
+    "Dzalitt Mawvalebb 🥺",
+    "Gavgijdebiii ... 😢",
+    "Bubu Guli Metineba",
+    "Dampaloooo",
+    "Ughhhhhhhh 😠",
+    "Kiss Daachirrre'",
+    "Gceeeeemmmmmm",
+    "Tuntulaaaaav",
+    "Jiutooooo",
+    "Viroooo",
+    "Chemii gogo xarr!!!",
+    "Midi Axlaa Ki s Daachire",
+    "Gtxoovv😔",
+    "Nu Gamatkvlecieb Tavss",
+    "Dzalittt Miketebbbb",
+    "Kamerashii Giyurebbb👀",
+    "Damciniii 😂",
+    "Ki s Tuar Daacher Trakucebs Dagichkmitav",
+    "Dzalian Miyvarxar😍",
+    "Ooooxxxx"
+
+
+export default PHRASES;
